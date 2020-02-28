@@ -1,22 +1,6 @@
-
-<template v-if="loginType === 'username'">
-  <label>Username</label>
-  <input placeholder="Enter your username">
-</template>
-<template v-if="loginType === 'username1'">
-  <label>Email</label>
-  <input placeholder="Enter your email address">
-</template>
-<template v-else>
-  <div class="vtest1" >
-    <h1 v-if="awesome">Vue is awesome!</h1>
-    <h1 v-else>Oh no 😢</h1>
-    <h1>{{awesome}}</h1>
-    <form>
-      <input type="button" v-on:click="add",click.once="doThis">
-      <p>{{bccount}}</p>
-    </form>
-
+<template>
+  <div class="vtest1">
+    <el-input placeholder="请输入内容"></el-input>
   </div>
 </template>
 
@@ -24,11 +8,12 @@
 import Vue from 'vue'
 var number=1
   export default{
-    el: "#vtest1",
+
     data() {
       return {
         awesome: "truthy",
-        bccount: 1
+        bccount: 1,
+        radio: '1'
       }
     },
     methods:{
@@ -40,7 +25,7 @@ var number=1
   }
 
 
-    
+
 </script>
 
 
