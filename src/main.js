@@ -4,14 +4,15 @@ import Vue from 'vue'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import App from './App'
+import './plugins/axios'
 import router from './router'
 import {
   Pagination,
   Dialog,
   Autocomplete,
   Dropdown,
-  DropdownMenu,
   DropdownItem,
+  DropdownMenu,
   Menu,
   Submenu,
   MenuItem,
@@ -169,6 +170,7 @@ Vue.prototype.$prompt = MessageBox.prompt;
 Vue.prototype.$notify = Notification;
 Vue.prototype.$message = Message;
 
+
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
@@ -177,9 +179,9 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
 })
 
 
- 
+
