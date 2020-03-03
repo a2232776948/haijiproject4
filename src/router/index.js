@@ -7,8 +7,9 @@ import Login from '@/components/2_1login/Login'
 import Vtest2 from '../Vtest2'
 import BackGround from '@/components/common/BackGround'
 import Home from '@/components/2_2home/2_2'
-import two_three from  '@/components/2_3/2_3'
 import two_four from  '@/components/2_4/2_4'
+import two_five from '@/components/2_5/2_5'
+import two_three from '@/components/2_3/2_3'
 import start from '@/components/Start'
 
 Vue.use(Router)
@@ -18,11 +19,6 @@ export default new Router({
     {
       path: '/',
       redirect: '/login',
-    },
-    {
-      path: '/vtest1',
-      name: 'VTest1',
-      component: VTest1
     },
     {
       path: '/eletest1',
@@ -35,11 +31,6 @@ export default new Router({
       component: Login
     },
     {
-      path: '/vtest2',
-      name: 'Vtest2',
-      component: Vtest2
-    },
-    {
       path: '/background',
       name: BackGround,
       component: BackGround
@@ -48,23 +39,26 @@ export default new Router({
       path:'/home',
       name: Home,
       component: Home,
-      children:[{
+      children:[
+        {
+          path: '/two_three',
+          name: two_three,
+          component: two_three
+        },
+        {
         path: '/two_four',
         name: two_four,
         component: two_four
+      },
+      {
+        path: '/two_five',
+        name: two_five,
+        component: two_five
+      },
 
-      }]
+      ]
     },
-    {
-      path: '/two_three',
-      name: two_three,
-      component: two_three
-    },
-    {
-      path: '/start',
-      name: start,
-      component:start
-    }
+
 
 
   ]

@@ -4,16 +4,17 @@
       <el-menu router default-active="active">
         <el-submenu index="1">
           <template slot="title">建筑墙体基本信息</template>
-          <el-menu-item index="/two_three">采样地信息</el-menu-item>
+          <el-menu-item index="/two_three">基本信息</el-menu-item>
 
         </el-submenu>
         <el-submenu index="2">
           <template slot="title">渗水测试</template>
-          <el-menu-item index="/two_four">采样地信息</el-menu-item>
+          <el-menu-item index="/two_four">测试</el-menu-item>
 
         </el-submenu>
         <el-submenu index="3">
           <template slot="title">渗水原因分析</template>
+          <el-menu-item index="/two_five">分析</el-menu-item>
 
         </el-submenu>
         <el-submenu index="4">
