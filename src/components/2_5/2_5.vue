@@ -1,9 +1,8 @@
 <template>
-  <div class="mainbox">
-    <div style="width: 10px; height: 10px;"></div>
-    <div class="textbox">
-      <p id="title">渗水原因分析</p><br/><br/>
-      <p v-for="item in raw_text.split('\n')">{{item}}</p>
+  <div>
+    <div class="textbox_2_5">
+      <p id="title_2_5">渗水原因分析</p><br/><br/>
+      <p class="p_2_5" v-for="item in raw_text.split('\n')">{{item}}</p>
     </div>
 
   </div>
@@ -48,27 +47,23 @@
 </script>
 
 <style>
-	.mainbox{
-		width: 593px;
-    height: 560px;
-		background-color: #E8BF6A;
-	}
-  .textbox{
+  .textbox_2_5{
     background-color: #ffffff;
-    margin: 5px;
-    width: 583px;
-    height: 536px;
+    width: 858px;
+    height: 598px;
     overflow:scroll;
   }
-  #title{
+  #title_2_5{
     font-family:"Times New Roman",Times, serif;
     font-size: large;
     margin: 5px;
     float: left;
   }
-  p{
+  .p_2_5{
     font-family:"Times New Roman",Times, serif;
     font-size: 15px;
+    font-weight: 300;
+    color: #000000;
     float: left;
     margin: 1px 8px 1px 8px;
   }

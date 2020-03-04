@@ -1,21 +1,18 @@
 <template>
-    <div class="mainbox">
-        <div style="width: 10px; height: 25px;"></div>
-        <div class="bgbox">
-          <div class="m bor">
-            <h3>建筑墙体基本信息</h3>
-            <div class="s bor">
-              <form action="" method="get">
-                <p>墙体厚度: <input type="text" name="wall" /></p>
-                <p>防水材料: <input type="text" name="prof" /></p>
-                <p>管道类型: <input type="text" name="piptype" /></p>
-              </form>
-            </div>
+  <div>
+      <div class="bgbox_2_3">
+        <div class="m_2_3 bor_2_3">
+          <h3 style="padding-left: 10px;">建筑墙体基本信息</h3>
+          <div class="s_2_3 bor_2_3">
+            <form action="" method="get">
+              <p class="p_2_3">墙体厚度: <input type="text" name="wall" class="input_2_3" /></p>
+              <p class="p_2_3">防水材料: <input type="text" name="prof" class="input_2_3" /></p>
+              <p class="p_2_3">管道类型: <input type="text" name="piptype" class="input_2_3" /></p>
+            </form>
           </div>
-
         </div>
-        <div style="width: 880px; height: 5px;"></div>
       </div>
+  </div>
 </template>
 
 <script>
@@ -31,37 +28,34 @@
 
 <style>
 
-	.mainbox{
-		width: 780px;
-    height: auto;
-		background-color: #E8BF6A;
-	}
-  .bgbox{
-    width: 760px;
-    height: 420px;
+  .bgbox_2_3{
+    width: 840px;
+    height: 580px;
     background-image: url("../../assets/timg1.jpg");
     background-repeat: no-repeat;
-    background-size: 760px 415px;
-    margin-left: 10px;
+    background-size: 840px 580px;
+    margin: 10px;
   }
 
-  .m{
-    width: 280px;
-    height: 410px;
+  .m_2_3{
+    width: 320px;
+    height: 580px;
   }
-  .s{
-    width: 270px;
-    height: 340px;
+  .s_2_3{
+    width: 310px;
+    height: 510px;
     margin: 5px;
   }
-  .bor{
+  .bor_2_3{
     border-style: solid;
     border-width: 1px;
   }
-  p{
+  .p_2_3{
     font-weight: bold;
+    padding-left: 5px;
+    color: #000000;
   }
-  input{
+  .input_2_3{
     background-color: #aaffff;
   }
 </style>

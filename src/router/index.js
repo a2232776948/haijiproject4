@@ -9,6 +9,7 @@ import BackGround from '@/components/common/BackGround'
 import Home from '@/components/2_2home/2_2'
 import two_four from  '@/components/2_4/2_4'
 import two_five from '@/components/2_5/2_5'
+import two_six from '@/components/2_6/2_6'
 import two_three from '@/components/2_3/2_3'
 import start from '@/components/Start'
 
@@ -54,6 +55,11 @@ export default new Router({
         path: '/two_five',
         name: two_five,
         component: two_five
+      },
+      {
+        path: '/two_six',
+        name: two_six,
+        component: two_six
       },
 
       ]
