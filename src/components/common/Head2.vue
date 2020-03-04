@@ -19,11 +19,13 @@
         </el-submenu>
         <el-submenu index="4">
           <template slot="title">渗水防治</template>
-
+          <el-menu-item index="/two_six">渗水防治</el-menu-item>
+          
         </el-submenu>
         <el-submenu index="5">
           <template slot="title">墙体质量测试</template>
-
+          <el-menu-item index="/two_seven">墙体质量测试</el-menu-item>
+          
         </el-submenu>
         <el-submenu index="6">
           <template slot="title">墙体排水信息</template>
