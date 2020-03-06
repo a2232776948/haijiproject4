@@ -12,6 +12,8 @@ import two_five from '@/components/2_5/2_5'
 import two_six from '@/components/2_6/2_6'
 import two_seven from '@/components/2_7/2_7'
 import two_three from '@/components/2_3/2_3'
+import two_eight from '@/components/2_8/2_8'
+import two_night from '@/components/2_9/2_9'
 import start from '@/components/Start'
 
 Vue.use(Router)
@@ -67,7 +69,17 @@ export default new Router({
         name: two_seven,
         component: two_seven
       },
-
+      {
+        path: '/two_eight',
+        name: two_eight,
+        component: two_eight
+      },
+      {
+        path: '/two_night',
+        name: two_night,
+        component: two_night
+      },
+      
       ]
     },
 

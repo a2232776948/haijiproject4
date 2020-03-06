@@ -20,20 +20,22 @@
         <el-submenu index="4">
           <template slot="title">渗水防治</template>
           <el-menu-item index="/two_six">渗水防治</el-menu-item>
-          
+
         </el-submenu>
         <el-submenu index="5">
           <template slot="title">墙体质量测试</template>
           <el-menu-item index="/two_seven">墙体质量测试</el-menu-item>
-          
+
         </el-submenu>
         <el-submenu index="6">
           <template slot="title">墙体排水信息</template>
+          <el-menu-item index="/two_eight">墙体排水信息</el-menu-item>
 
         </el-submenu>
         <el-submenu index="7">
           <template slot="title">墙体排水图示</template>
-
+          <el-menu-item index="/two_night">墙体排水图示</el-menu-item>
+          
         </el-submenu>
         <el-submenu index="8">
           <template slot="title">防水材料检测</template>

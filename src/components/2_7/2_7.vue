@@ -1,6 +1,6 @@
 <template>
  <div class="textbox_2_7">
-   <p id="title_2_7">墙体质量测试</p><br/><br/>
+   <p id="title_2_7">墙体质量测试</p>
    <div class="topbox_2_7">
      <div>
        <form action="" method="get">
@@ -88,7 +88,7 @@
     font-size: large;
     font-weight: bold;
     color: #000000;
-    margin: 5px;
+    padding: 15px;
     position:relative;
     left:40%;
   }

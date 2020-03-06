@@ -48,6 +48,7 @@
 
 <style>
   .textbox_2_5{
+    color: #000000;
     background-color: #ffffff;
     width: 858px;
     height: 598px;
