@@ -7,9 +7,9 @@
          <p class="p_2_7">墙体类型
            <select>
              <option value=""></option>
-             <option value="css">css</option>
-             <option value="JavaScript">-------JavaScript------</option>
-             <option value="php">php</option>
+             <option value="typea">砖墙</option>
+             <option value="typeb">加气混凝土砌块墙</option>
+             <option value="typec">石材墙</option>
            </select>
          </p>
          <p class="p_2_7">排水状况 <input type="text" name="wall" style="width: 240px;"/></p>
@@ -17,9 +17,8 @@
          <p class="p_2_7">是否渗水
            <select>
              <option value=""></option>
-             <option value="css">css</option>
-             <option value="JavaScript">JavaScript</option>
-             <option value="php">php</option>
+             <option value="yes">渗水</option>
+             <option value="no">不渗水</option>
            </select>
          </p>
 
@@ -71,7 +70,7 @@
   .topbox_2_7{
     border-style: solid;
     border-width: 1px;
-    border-color: #cacaca;
+    border-color: #dadada;
     display: flex;
   }
   .rbtn_2_7{

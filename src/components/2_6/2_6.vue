@@ -1,7 +1,9 @@
 <template>
 	<div class="div_2_6">
 		<div class="textbox_2_6">
-		  <p v-for="(item,index) in raw_text.split('\n')" v-on:click="changeimage(index)" class="p_2_6">{{item}}</p>
+		  <p v-for="(item,index) in raw_text.split('\n')" v-on:click="changeimage(index)" class="p_2_6">
+        &nbsp;&nbsp;&nbsp;&nbsp;{{item}}
+      </p>
 
 		</div>
     <div class="m_2_6 bor_2_6">
@@ -85,7 +87,7 @@
     font-weight: 300;
     color: #000000;
     float: left;
-    margin: 2px 8px 2px 8px;
+    margin: 4px 8px 4px 8px;
   }
   .current_p_2_6{
     background-color: #aaffff;
