@@ -4,13 +4,38 @@
       <div id="back-ground2">
         <Head1></Head1>
         <div id="back-ground3">
-          <img src="@/assets/head2.png" width="800" height="30">
+          <el-row>
+            <i class="el-icon-arrow-right"></i>
+            <button class="menubtn"><i class="el-icon-s-cooperation"></i>工程(<u>F</u>)</button>
+            <button class="menubtn"><i class="el-icon-edit-outline"></i>编辑(<u>E</u>)</button>
+            <button class="menubtn"><i class="el-icon-user-solid"></i>数据维护(<u>X</u>)</button>
+            <button class="menubtn"><i class="el-icon-bottom-right"></i>造价接口(<u>S</u>)</button>
+            <button class="menubtn"><i class="el-icon-s-open"></i>造价工具(<u>G</u>)</button>
+            <button class="menubtn"><i class="el-icon-menu"></i>窗口(<u>W</u>)</button>
+            <button class="menubtn"><i class="el-icon-question"></i>帮助(<u>H</u>)</button>
+
+          </el-row>
         </div>
         <div id="back-ground4">
-          <div id="bg4-l">
-            <img src="@/assets/head3.png" width="500" height="30">
-          </div>
+          <el-row>
+            <i class="el-icon-arrow-right"></i>
+            <button class="menubtn"><i class="el-icon-tickets" style="size:b5;"></i></button>
+            <button class="menubtn"><i class="el-icon-folder-opened"></i></button>
+            <button class="menubtn"><i class="el-icon-mobile"></i></button>
+            <button class="menubtn"><i class="el-icon-news"></i></button>
+            <button class="menubtn"><i class="el-icon-refresh-left" disabled></i></button>
+            <button class="menubtn"><i class="el-icon-scissors"></i></button>
+            <button class="menubtn"><i class="el-icon-document-copy"></i></button>
+            <button class="menubtn"><i class="el-icon-money" disabled></i></button>
+            <button class="menubtn"><i class="el-icon-view"></i></button>
+            <button class="menubtn"><i class="el-icon-sort"></i></button>
+            <button class="menubtn"><i class="el-icon-finished"></i></button>
+            <button class="menubtn"><i class="el-icon-s-operation"></i></button>
+            <button class="menubtn"><i class="el-icon-caret-right"></i>汇总计算</button>
+
+          </el-row>
         </div>
+        
         <div id="back-ground5"></div>
         <Head2 active="active"></Head2>
       </div>
@@ -38,7 +63,6 @@
   #back-ground1{
     height: 730px;
     width: 1100px;
-    color: burlywood;
     background: burlywood ;
     margin: 0 auto;
   }
@@ -48,13 +72,17 @@
     background: white;
     margin: 0 auto;
   }
+  .menubtn{
+    padding: 0px 5px 0px 5px;
+    margin: 2px;
+  }
   #back-ground3{
-    height: 30px;
+    height: 28px;
     width: 1060px;
     background: #B2CDF7;
   }
   #back-ground4{
-    height: 30px;
+    height: 28px;
     width: 1060px;
     background: #B2CDF7;
   }

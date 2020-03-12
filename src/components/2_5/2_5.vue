@@ -64,7 +64,7 @@
     font-family:"Times New Roman",Times, serif;
     font-size: 15px;
     font-weight: 300;
-    color: #000000;
+    color: #606266;
     float: left;
     margin: 1px 8px 1px 8px;
   }

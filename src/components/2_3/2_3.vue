@@ -2,7 +2,7 @@
   <div>
       <div class="bgbox_2_3">
         <div class="m_2_3 bor_2_3">
-          <h3 style="padding-left: 10px; color: #000000;">建筑墙体基本信息</h3>
+          <h3 style="padding-left: 10px;">建筑墙体基本信息</h3>
           <div class="s_2_3 bor_2_3">
             <form action="" method="get">
               <p class="p_2_3">墙体厚度: <input type="text" name="wall" class="input_2_3" /></p>
@@ -35,6 +35,7 @@
     background-repeat: no-repeat;
     background-size: 840px 580px;
     margin: 10px;
+    color: #606266;
   }
 
   .m_2_3{
@@ -49,11 +50,11 @@
   .bor_2_3{
     border-style: solid;
     border-width: 1px;
+    border-color: #e6e6e6;
   }
   .p_2_3{
     font-weight: bold;
     padding-left: 5px;
-    color: #000000;
   }
   .input_2_3{
     background-color: #aaffff;

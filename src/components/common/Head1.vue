@@ -38,11 +38,12 @@
     margin-left: 20px;
   }
   #v1-left h2{
+    padding-top: 5px;
     margin-top: 10px;
     width: 300px;
     font-weight: bold;
     cursor: pointer;
-    font-size: small;
+    font-size: 14px;
   }
   #v1-right{
     cursor: pointer;
