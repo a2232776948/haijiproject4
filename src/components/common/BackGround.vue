@@ -35,8 +35,31 @@
 
           </el-row>
         </div>
-        
-        <div id="back-ground5"></div>
+
+        <div id="back-ground5">
+          <form action="" method="get" style="display: flex; width: 1060px;">
+            <p id="pd">工程类别:
+              <select>
+                <option value=""></option>
+                <option value="pjtypea">工程A</option>
+                <option value="pjtypeb">工程B</option>
+                <option value="pjtypec">工程C</option>
+              </select>
+            </p>
+
+
+              <p style="margin-left: 28%;">地区类别:
+                <select>
+                  <option value=""></option>
+                  <option value="pltypea">地区A</option>
+                  <option value="pltypeb">地区B</option>
+                  <option value="pltypec">地区C</option>
+                </select>
+
+              </p>
+              <p>合价小数位: <input type="text" name="prof" style="width: 50px;" value="0.00"/></p>
+          </form>
+        </div>
         <Head2 active="active"></Head2>
       </div>
     </div>
@@ -93,8 +116,21 @@
   }
   #back-ground5{
     height: 30px;
-    width: 400px;
+    width: 1060px;
     background: white;
+    display: flex;
+  }
+  #back-ground5 p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #606266;
+  }
+  #pd{
+    margin-left: 20%;
+  }
+  #pleft{
+    margin-left: 25%;
   }
 
 </style>
