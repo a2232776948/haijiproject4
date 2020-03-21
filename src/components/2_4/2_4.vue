@@ -5,8 +5,8 @@
       <div class="vbox_2_4">
         <div style="position: absolute; left: 20%; top: 5%;">
           <div style="position: relative;">
-            <div class="vtext_2_4">{{total}}</div>
-            <el-progress type="dashboard" :percentage="total" :color="colors" :show-text="false"></el-progress>
+            <div class="vtext_2_4">{{(rate/10).toFixed(1)}}</div>
+            <el-progress type="dashboard" :percentage="rate*2" :color="colors" :show-text="false"></el-progress>
           </div>
         </div>
       </div>
@@ -21,8 +21,8 @@
       <div class="vbox_2_4">
         <div style="position: absolute; left: 20%; top: 5%;">
           <div style="position: relative;">
-            <div class="vtext_2_4">{{rate}}</div>
-            <el-progress type="dashboard" :percentage="rate" :color="colors" :show-text="false"></el-progress>
+            <div class="vtext_2_4">{{total}}</div>
+            <el-progress type="dashboard" :percentage="total" :color="colors" :show-text="false"></el-progress>
           </div>
         </div>
       </div>
@@ -49,8 +49,8 @@
   export default {
     data() {
       return {
-        total: 0,
-        rate: 10,
+        total: 10,
+        rate: 1,
         colors: [
           {color: '#6f7ad3', percentage: 20},
           {color: '#1989fa', percentage: 40},
