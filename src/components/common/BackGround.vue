@@ -19,19 +19,19 @@
         <div id="back-ground4">
           <el-row>
             <i class="el-icon-arrow-right"></i>
-            <button class="menubtn"><i class="el-icon-tickets" style="size:b5;"></i></button>
-            <button class="menubtn"><i class="el-icon-folder-opened"></i></button>
-            <button class="menubtn"><i class="el-icon-mobile"></i></button>
-            <button class="menubtn"><i class="el-icon-news"></i></button>
-            <button class="menubtn"><i class="el-icon-refresh-left" disabled></i></button>
-            <button class="menubtn"><i class="el-icon-scissors"></i></button>
-            <button class="menubtn"><i class="el-icon-document-copy"></i></button>
-            <button class="menubtn"><i class="el-icon-money" disabled></i></button>
-            <button class="menubtn"><i class="el-icon-view"></i></button>
-            <button class="menubtn"><i class="el-icon-sort"></i></button>
-            <button class="menubtn"><i class="el-icon-finished"></i></button>
-            <button class="menubtn"><i class="el-icon-s-operation"></i></button>
-            <button class="menubtn"><i class="el-icon-caret-right"></i>汇总计算</button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-tickets" style="size:b5;"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-folder-opened"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-mobile"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-news"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-refresh-left" disabled></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-scissors"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-document-copy"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-money" disabled></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-view"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-sort"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-finished"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-s-operation"></i></el-button>
+            <el-button type="text" class="menubtn2"><i class="el-icon-caret-right"></i>汇总计算</el-button>
 
           </el-row>
         </div>
@@ -99,6 +99,12 @@
     padding: 0px 5px 0px 5px;
     margin: 2px;
   }
+  .menubtn2{
+    padding: 0px 3px 0px 3px;
+    margin: 2px;
+    color: #000000;
+  }
+  
   #back-ground3{
     height: 28px;
     width: 1060px;

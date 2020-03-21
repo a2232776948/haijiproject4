@@ -4,7 +4,7 @@
     <div class="tablebox_2_9">
       <table border="1" id="tb_2_9">
         <tr>
-          <th>名称</th>
+          <th width="80">名称</th>
         </tr>
         <tr>
           <th>&nbsp;</th>
